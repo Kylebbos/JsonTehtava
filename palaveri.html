@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palaveri</title>
+
+    <style>
+      @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="tyylit.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Etusivu</a>
+      <a href="digicafe.html">Digi Cafe</a>
+      <a href="palaveri.html">Palaveri</a>
+      <a href="tyopaikat.html">Työpaikat</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div style="padding-left: 16px">
+      <h1>Palaverit</h1>
+
+      
+      <div id="vastaus" style="padding-left: 16px"></div>
+
+      <script src="palaveri.js"></script>
+
+
+    </div>
+  </body>
+</html>
